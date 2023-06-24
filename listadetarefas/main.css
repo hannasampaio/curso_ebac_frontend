@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e1e7ee
+}
+
+.container{
+    margin: 100px auto;
+    padding: 16px;
+    max-width: 640px;
+    justify-content: center;
+    text-align: center;
+}
+
+.container h1{
+    margin-bottom: 16px;
+    font-size: 30px;
+}
+
+.container input{
+    padding: 8px;
+    width: 280px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.container button{
+    font-size: 16px;
+    padding: 8px;
+}
+
+.container button:hover{
+    cursor: pointer;
+}
+
+.container ul{
+    margin-top: 36px;
+    margin-left: 140px;
+    font-size: 18px;
+    text-align:start;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
+
+li:hover{
+    cursor: pointer;
+}
